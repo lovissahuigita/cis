@@ -1,0 +1,238 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>PT. Cipta Inova System</title>
+    <meta name="description" content="PT Cipta Inova System">
+    <meta name="author" content="SitePoint">
+
+    <!-- BOOTSTRAP Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> <!-- Optional theme -->
+
+    <!--<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/tabs.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- JS -->
+</head>
+
+<body>
+
+<div id="container">
+    <div>
+        <div id="horizontal-2" class="row font-roboto horizontal">
+            <div class="col-xs-12 col-sm-12	col-md-12 col-lg-12">PT CIPTA INOVA SYSTEM</div>
+        </div>
+        <div id="horizontal-1" class="horizontal">
+            <div id="tablinks" class="row tab">
+                <div class="links col-xs-12 col-sm-6 col-md-3 col-lg-3 font-roboto lis">
+                    <a href="#" class="tablinks" onclick="openTab(event, 'home')">HOME</a>
+                </div>
+                <div class="links col-xs-12 col-sm-6 col-md-3 col-lg-3 font-roboto lis">
+                    <a href="#" class="tablinks" onclick="openTab(event, 'products')">PRODUCTS</a>
+                </div>
+                <div class="links col-xs-12 col-sm-6 col-md-3 col-lg-3 font-roboto lis">
+                    <a href="#" class="tablinks" onclick="openTab(event, 'clients')">CLIENTS</a>
+                </div>
+                <div class="links col-xs-12 col-sm-6 col-md-3 col-lg-3 font-roboto lis">
+                    <a href="#" class="tablinks" onclick="openTab(event, 'contact-us')">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+        <hr id="line">
+        <div id="horizontal-3" class="horizontal">
+            <div id="tab-content">
+                    <div id="home" class="tabcontent">
+                        HI!
+                        <!--<div id="lovi-pict-div">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col s8 offset-s2 m6 offset-m3 l4 offset-l4">-->
+                                    <!--<img src="img/lovissawinyoto.jpg" id="lovi-pict">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                    <div id="products" class="tabcontent">
+                        <object id="resume-pdf" data="pdf/LWResume.pdf" type="application/pdf"></object>
+                    </div>
+                    <div id="clients" class="tabcontent">
+                        <div class="row">
+                            <!--Biometric Attendance Scanner-->
+                            <div class="col s12 m6 l6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/mbed_fingerprint_scanner.png">
+                                        <span class="card-title text-font">Biometric Attendance System</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Software and hardware system to track users' attendance and report it to the owner.
+                                            The attendance system uses biometric features to authenticate the users scanned to the system (MBED GT115C3 Fingerprint Scanner).
+                                            The system is written in C. It compiles all authenticated users and reports it to the owner of the user group.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="https://developer.mbed.org/users/beanmachine44/notebook/fingerprint-scanner1/" class="text-font">Page</a>
+                                        <a href="https://www.youtube.com/watch?v=X4K1Qzw_CDQ" class="text-font">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Georgia Tech Indonesian Cultural Night Ticketing-->
+                            <div class="col s12 m6 l6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/gt_icn_ticket.png">
+                                        <span class="card-title text-font">GT ICN Ticketing System</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Database system that is implemented in MySQL, PHP, HTML, and CSS to record the information of the attendees of the Indonesian Cultural Night Event.
+                                            The system keeps track of the tickets bought for the event and the prices for the attendees based on their demographics. The system is a closed system that can only be managed by specified administrators.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://www.lovissahuigita.com/gatechICN16/" class="text-font">Page</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Yallpay.me-->
+                            <div class="col s12 m6 l12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/yallpay_me.png">
+                                        <span class="card-title text-font">Yallpay.me</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Web-application service that allows users with a verified account as a point of sales for business. The application uses Venmo's API to do the transaction.
+                                            Yallpay.me utilizes face recogniztion (Face++ API) to authenticate user to their account; this allows user to make transaction without having to bring any credit/debit card or other money forms.
+                                            In the future, this project can be expanded to utilize other forms of bioauthentication, such as fingerprint, to authorize transactions on the app.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://devpost.com/software/yallpay" class="text-font">DEVPOST</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Happy Birthday ES-->
+                            <div class="col s12 m6 l6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/es.png">
+                                        <span class="card-title text-font">Happy Birthday to You</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Simple web page project using HTML, CSS, and JS that compiles birthday wishes for Edward from his friends and significant others.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://lovissahuigita.com/es/" class="text-font">Page</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Huddle-->
+                            <div class="col s12 m6 l6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/huddle.png">
+                                        <span class="card-title text-font">Huddle</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Huddle is an on-demand mobile application that connects students on campus.
+                                            It is a safe environment for students to meet new people on campus based on their interests.
+                                            Students can ask help for their homework, form study groups, or meet new people to play soccer together.
+                                            The application is built on ionic platform and android platform.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://www.lovissahuigita.com/gatechICN16/" class="text-font">Page</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--CDC-->
+                            <div class="col s12 m6 l6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/ghost.png">
+                                        <span class="card-title text-font">GHOST</span>
+                                    </div>
+                                    <div class="card-content text-font">
+                                        <p>Global Hepatitis Outbreak Surveillance Technology (GHOST) is developed by the Center for Disease Control and Prevention (CDC)
+                                            to monitor and reduce Hepatitis C virus outbreaks across the states and the world. My team and I worked on the UI redesign of the GHOST
+                                            visualization using d3.js</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://www.lovissahuigita.com/gatechICN16/" class="text-font">Page</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="contact-us" class="tabcontent">
+                        <p id="contact-ltc" class="font-roboto"><b>LINDETEVES TRACE CENTER</b><br>
+                        Jalan Hayam Wuruk No. 127 Blok C-43/10<br>
+                        Mangga Besar, Tamansari, DKI Jakarta 11180<br>
+                        Indonesia<br>
+                        Phone: (021) 62308622<br>
+                        Fax: (021) 62308622
+                        </p>
+                        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align" data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Send us an email!</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="MAILTO:lovissahuigita@gmail.com" method="post" enctype="text/plain">
+                                            <div class="form-group">
+                                                <label for="name">Your Name:</label>
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" id="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject">Subject:</label>
+                                                <input type="text" class="form-control" id="subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="text">Email:</label>
+                                                <textarea class="form-control" rows="4" id="text"></textarea>
+                                            </div>
+                                            <!--<div class="checkbox">-->
+                                                <!--<label><input type="checkbox"> Remember me</label>-->
+                                            <!--</div>-->
+                                            <button type="submit" class="btn btn-default center-block">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
